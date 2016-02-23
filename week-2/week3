@@ -1,0 +1,16 @@
+<!doctype html>
+
+	<!--Basic templace-->
+
+<html>
+<head>
+
+</head>
+
+<body>
+
+<button type="button" onclick="alert('hello')">Do Something!</button>
+
+</body>
+
+</html>
