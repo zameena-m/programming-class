@@ -9,10 +9,14 @@ h1{
 	font-family: 'futura', sans-serif;
 	font-size: 40px;
 	text-align:center;
-	
-
-
+	margin-top: 30px;
+	margin-bottom: 10px;
 	}
+
+h1:hover{
+	color: pink;
+
+}
 
 p{
 	color:#4F628E;
@@ -22,7 +26,24 @@ p{
 	text-indent:40px;
 }
 
+p:first-letter{
+	font-size:40px;
+	font-weight:bold;
+}
+
 hr {
 
 	border-color:black;
+}
+
+#content {
+
+	width: 500px;
+	border-color: black;
+	border-width: 20px;
+	background-color: gray; 
+	margin: 0 auto;
+	padding: 40 px;
+
+
 }
