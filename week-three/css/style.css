@@ -6,12 +6,20 @@ body{
 }
 h1{
 	color:#003333;
+	font-family: 'futura', sans-serif;
+	font-size: 40px;
+	text-align:center;
+	
 
-}
+
+	}
 
 p{
 	color:#4F628E;
-
+	font-family: 'rockwell';
+	font-size: 20px;
+	text-align:left;
+	text-indent:40px;
 }
 
 hr {
