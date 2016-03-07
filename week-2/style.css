@@ -1,0 +1,51 @@
+/*css*/
+/*Website: Week 3 CSS Practice v. 1
+Author: Zameena Mejia*/
+body{
+
+	background:#FFAAAA;
+	font-family: arial;
+}
+h1{
+	color:#003333;
+	font-family: 'futura', sans-serif;
+	font-size: 40px;
+	text-align:center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	}
+
+h1:hover{
+	color: pink;
+
+}
+
+p{
+	color:#4F628E;
+	font-family: 'rockwell';
+	font-size: 20px;
+	text-align:left;
+	text-indent:40px;
+}
+
+p:first-letter{
+	font-size:40px;
+	font-weight:bold;
+}
+
+hr {
+
+	border-color:black;
+}
+
+#content {
+
+	width: 500px;
+	border-color: black;
+	border-width: 20px;
+	background-color: gray; 
+	margin: 0 auto;
+	padding: 40 px;
+
+
+}

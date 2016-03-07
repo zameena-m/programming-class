@@ -4,15 +4,13 @@ Author: Zameena Mejia;*/
 
 
 body {
-	background:#FFAAAA;
+	background:blue;
 	font-family: arial;
 
 
 }
 
-h1 {
-
-
+h1 { 
 }
 
 
@@ -21,7 +19,19 @@ h3 {
 
 }
 
-p {
+p.genre {
+	text-align: center;
+    color: red;
+}
 
-
+.container {
+	.float{
+    color:#282C32 ;
+    font-family: arial, sans-serif;
+    font-weight: 400;
+    font-size:15px;
+    margin: 10px 70px;
+    text-indent: 30px;
+    float:right;
+}
 }
