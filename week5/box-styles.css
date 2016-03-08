@@ -1,0 +1,49 @@
+#boxes{
+	height:100vh;
+	background:#ccc;
+	width:80%;
+	margin:0 auto;
+}
+
+#tree img {
+	width: 100%;
+	margin:0;
+
+}
+
+h1{
+	position:absolute;
+	top:38%;
+	text-align: center;
+	width:100%;
+	color:#fff;
+
+}
+.box{
+	width:100px;
+	height:100px;
+	border: 1px solid #000;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-right:20px;
+
+
+}
+
+#blue {
+	background: blue;
+	z-index: 80;
+	
+}
+#green{
+	background:green;
+	z-index:101;
+}
+#red{
+	background:red;
+	position:fixed;
+	width:100%;
+	top:0px;
+	left:0px;
+	z-index: 99;
+}
