@@ -1,6 +1,14 @@
 var submit = document.getElementById('submit');
 submit.onclick = tipCalculate;
 
+var reset = document.getElementById('reset');
+    reset.onclick = pageReload;
+
+    function pageReload(){
+        window.location.reload (false);
+    }
+
+
 function tipCalculate(){
   console.log("TIP CALCULATE");
 
