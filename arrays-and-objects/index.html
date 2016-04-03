@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Week 7 - Arrays, Objects and Loops</title>
+</head>
+<body>
+  <h1 id="headline">Storing Data in JavaScript</h1>
+  <ul id="list"></ul>
+
+<script>
+	
+	var books = ["Harry Potter","Twilight","Modern Love","Not That Kind OF Girl","The Hungry Catepillar"];
+	console.log(books);
+	console.log(books[2]);
+
+var book = {
+	title: "Harry Potter",
+	author: "J.K. Rowling",
+	pubYear: '1997'
+};
+
+for (var i=0; i < books.length ; i++){
+	alert(books[i]);
+}
+
+
+console.log(book.author);
+
+var favoriteBooks = [
+	{
+		title: "Harry Potter",
+		author: "J.K. Rowling",
+		pubYear: '1997'
+	},
+	{ 
+		title: "Twilight",
+		author: "Stephanie Meyer",
+		pubYear: '2001'
+
+	},
+	
+	{	
+		title: "The Hungry Catepillar",
+		author: "Eric Carle",
+		pubYear: '1997'
+	}
+
+];
+
+console.log (favoriteBooks);
+
+
+for (var i = 0; i < favoriteBooks.length; i++) 
+
+	{console.log (favoriteBooks[i]);
+		var listItem = document.createElement('li');
+		var title = document.createTextNode(favoriteBooks[i].title);
+		listItem.appendChild(title);
+		document.getElementById('list').appendChild(listItem);
+	}
+
+		document.getElementById('headline').innerHTML="My Favorite Books";
+
+
+
+</script>
+</body>
+</html>
+
+
