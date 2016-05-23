@@ -1,0 +1,67 @@
+body{
+
+	padding:0;
+	margin:0;
+	background-color: rgb(250,192,168);
+	font-family: "Georgia", serif;
+	
+}
+
+figure{
+
+	/*padding:0; 
+	margin:0;*/
+	width:100%;
+	height:100%;
+	
+}
+
+
+header{
+	position:center; 
+
+}
+
+h1{
+
+	position: absolute;
+	top:50%;
+	text-align:center;
+	width:100%;
+	color:#fff;
+	font-size: 55px;
+}
+h2{
+
+	
+	color:black;
+	
+}
+
+video {
+
+	width: 100%;
+
+	height:auto;
+}
+h1:hover { 
+    color: pink;
+}
+h2:hover {
+	color:purple;
+}
+
+.byline{ 
+
+	font-weight: bold;
+
+}
+.date{
+font-weight: bold;
+
+}
+
+article {
+	margin-left: 8%;
+	margin-right: 8%;
+;
